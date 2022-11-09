@@ -1,10 +1,12 @@
 package com.mustache.springbootmustachebbs3.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Getter
 @Table(name = "article2")

@@ -17,8 +17,12 @@
         <td>{{content}}</td>
     </tr>
     {{/article}}
+
     </tbody>
 </table>
+<a href="/articles/{{id}}/edit" class="btn btn-primary">Edit</a>
+<a href="/articles/{{id}}/delete" class="btn btn-danger">Delete</a>
+
 <a href="/articles">Article List</a>
 <a href="/articles/new">New Article</a>
 {{>layout/footer}}
